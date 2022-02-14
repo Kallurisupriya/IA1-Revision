@@ -2,8 +2,8 @@
 int input()
 {
   int i;
-  printf("enter the number/n");
   scanf("%d",&i);
+  return i;
 }
 int cmp(int a,int b,int c)
 {
@@ -23,6 +23,7 @@ void output(int a,int b,int c,int largest)
 int main()
 {
   int a, b, c, largest;
+  printf("enter three numbers");
   a= input();
   b=input();
   c=input();
